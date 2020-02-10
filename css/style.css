@@ -4,7 +4,7 @@
 body {
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
-    color: #505962;
+    color: #556677;
 }
 
 .offset:before{
@@ -19,7 +19,7 @@ body {
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
-    background: rgba(0, 0, 0, 0.6)!important;
+    background: rgba(14, 13, 13, 0.6)!important;
 }
 .navbar-brand img {
     height: 2rem;
@@ -28,17 +28,17 @@ body {
     padding-right: .7rem;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color: white;
+    color: lightgray;
     padding-top: .8rem;
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: palevioletred;
+    color: darkorchid;
 }
 
 /*--- Landing Page--*/
 .home-inner{
-   background-image:url(https://wallpaperaccess.com/full/278872.jpg);
+   background-image:url(../img/night.jpg);
 }
 .caption{
     width: 100%;
@@ -85,12 +85,12 @@ body {
     padding: .6rem 1.2rem;
     margin: 1rem;
     color: whitesmoke;
-    background-color: palevioletred;
-    border-color: palevioletred;
+    background-color:  darkorchid;
+    border-color:  darkorchid;
 }
 .btn-secondary:hover{
-    background-color: rgb(201, 103, 136);
-    border-color: rgb(201, 103, 136);
+    background-color: rgb(122, 63, 156);
+    border-color: rgb(122, 63, 156);
 }
 
 /*---Features Section--*/
@@ -109,12 +109,12 @@ h3.heading{
 .heading-underline{
     width: 3rem;
     height: .2rem;
-    background-color: palevioletred;
+    background-color:  darkorchid;
     margin: 0 auto 2rem;
 
 }
 .feature svg.svg-inline--fa{
-    color: palevioletred;
+    color:  darkorchid;
 }
 .feature h3{
     font-size: 1.3rem;
@@ -127,7 +127,7 @@ h3.heading{
 
 /*---Resources Section--*/
 .fixed{
-    background-image: url(https://wonderfulengineering.com/wp-content/uploads/2016/01/Desktop-Wallpaper-2.jpg);
+    background-image: url(../img/tree.jpg);
     z-index: -1;
 }
 .dark{
@@ -149,11 +149,11 @@ h3.heading{
     border-radius: 50%;
 }
 blockquote .svg-inline--fa{
-    color: palevioletred;
+    color:  darkorchid;
     margin: 1rem;
 }
 .clients-hr{
-    border-top: 0.5rem solid palevioletred;
+    border-top: 0.5rem solid  darkorchid;
 }
 
 /*---Contact Section--*/
@@ -176,7 +176,7 @@ footer svg.svg-inline--fa{
     margin: 1.2rem .5rem 0 0;
 }
 footer .svg-inline--fa:hover{
-    color: palevioletred!important;
+    color: darkorchid!important;
 }
 hr.socket{
     width: 100%;
