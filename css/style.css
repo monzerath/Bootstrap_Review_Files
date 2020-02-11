@@ -19,7 +19,7 @@ body {
     font-weight: 700;
     font-size: .9rem;
     letter-spacing: .1rem;
-    background: rgba(14, 13, 13, 0.6)!important;
+    background: rgba(14, 13, 13, 0.884)!important;
 }
 .navbar-brand img {
     height: 2rem;
@@ -38,7 +38,7 @@ body {
 
 /*--- Landing Page--*/
 .home-inner{
-   background-image:url(../img/night.jpg);
+   background-image:url(../img/CIX.jpg);
 }
 .caption{
     width: 100%;
@@ -46,7 +46,7 @@ body {
     position: absolute;
     top: 38%;
     z-index: 1;
-    color: white;
+    color: lightgray;
     text-transform: uppercase;
 }
 .caption h1{
@@ -127,11 +127,11 @@ h3.heading{
 
 /*---Resources Section--*/
 .fixed{
-    background-image: url(../img/tree.jpg);
+    background-image: url(../img/dark.jpg);
     z-index: -1;
 }
 .dark{
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: rgba(0, 0, 0, 0.432);
     color: whitesmoke;
     padding: 7rem 2rem;
 }
